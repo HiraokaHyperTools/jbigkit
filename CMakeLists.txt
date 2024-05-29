@@ -92,6 +92,8 @@ install(
 
 install(TARGETS jbig jbig85
         LIBRARY DESTINATION lib)
+install(TARGETS pbmtojbg jbgtopbm pbmtojbg85 jbgtopbm85
+        RUNTIME)
 
 # uninstall target
 configure_file(
